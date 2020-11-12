@@ -39,11 +39,8 @@ public class GUI {
     }
 
     private void tick() {
-        if( tickLabel.getText().equals( "Tick" ) ) {
-            tickLabel.setText( "Tock" );
-        } else {
-            tickLabel.setText( "Tick" );
-        }
+        if( tickLabel.getText().equals( "Tick" ) ) tickLabel.setText( "Tock" );
+        else tickLabel.setText( "Tick" );
     }
 
     private void sayHello() {
